@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const DonationRegister = () => (
   <form>
@@ -22,6 +23,7 @@ const DonationRegister = () => (
       </div>
     </div>
     <button type="submit" className="btn btn-primary">Register</button>
+    <button type="submit" className="btn btn-light"><Link to='/home'>Back</Link></button>
   </form>
 )
 
